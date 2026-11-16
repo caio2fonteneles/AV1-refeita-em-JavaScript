@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerenciar Usuários</title>
+</head>
+
+<body>
+
+    <h1>Gerenciamento de Usuários</h1>
+
+    <h2 id="tituloUsuario">Cadastrar Usuário</h2>
+
+    <form id="formUsuario">
+
+        <input type="hidden" id="id">
+
+        Nome:
+        <br>
+        <input type="text" id="nome" required>
+
+        <br><br>
+
+        E-mail:
+        <br>
+        <input type="email" id="email" required>
+
+        <br><br>
+
+        <button type="submit">Salvar usuário</button>
+
+        <button type="button" id="cancelar" hidden>
+            Cancelar edição
+        </button>
+
+    </form>
+
+    <hr>
+
+    <h2>Usuários cadastrados</h2>
+
+    <div id="listaUsuarios"></div>
+
+    <br>
+
+    <a href="index.html">Voltar ao menu</a>
+
+    <script src="javascript/usuarios.js"></script>
+
+</body>
+</html>
